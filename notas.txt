@@ -1,1 +1,3 @@
 Hola Mundo!
+git push
+git commit
