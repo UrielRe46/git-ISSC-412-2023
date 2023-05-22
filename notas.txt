@@ -34,4 +34,7 @@ Ej. git pull
 
 
 Ramas: 
-TODO: Agregar definicion de ramas 
+Las ramas nos permiten trabajar con el repositorio 
+sin alterar la estabilidad de la rama prinicipal.
+Como cualquier otra rama, hay una local y una remota. 
+Las ramas parten de un commit de origen.
