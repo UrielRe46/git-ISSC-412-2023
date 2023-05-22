@@ -1,5 +1,33 @@
 Hola Mundo!
-git push
-git commit
-git pull
-git fetch
+- git clone
+Crea una copia local del repositorio.
+Ej. git clone <repo_url>
+
+- git status
+Nos devuelve el estado actual del repositorio.
+Ej. git status
+
+- git add
+Preprar cambios (linea por linea) para ser incluidos en un commit.
+Ej. 1. git add notas.txt (agrega solo 1 archivo)
+Ej. 2. git add . (agrega todos los archivos)
+
+- git commit
+Crea un nuevo commit con los cambios que preparamos con el comando git add.
+Tiene un ID de commit y un mensaje
+Ej. git commit -m "<mensaje_commit>"
+
+- git push
+Sincroniza la rama remota con lo que hay en la local. En otras palabras sube los commits
+que hay en la local y faltan en la remota.
+Ej. git push
+
+- git fetch
+Trae los metadatos cobre commits, ramas, refs, etc, de un repositorio remoto.
+No descarga cambios a la rama local, solo trae metadatos.
+Ej. git fetch
+
+- git pull
+Sincroniza la rama local con lo que hay en la remota. En otras palabras descarga los
+commits que hay en la remota y faltan en la local.
+Ej. git pull
